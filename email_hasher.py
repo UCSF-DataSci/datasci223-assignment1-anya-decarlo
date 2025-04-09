@@ -67,6 +67,7 @@ def main():
     # 4. Write the hash to a file named "hash.email"
     hashed = hash_email(email_argument)
     write_hash_to_file(hashed)
+    print(f"Email hashed successfully: {hashed}")
 
 if __name__ == "__main__":
     main()
