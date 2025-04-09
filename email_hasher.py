@@ -51,21 +51,24 @@ def main():
     Main function to process command line arguments and execute the script.
     """
     # 1. Check if an email address was provided as a command line argument
-    # 2. If not, print an error message and exit with a non-zero status
     if len(sys.argv) <= 1:
         print("Error: No email entered.")
         sys.exit(1)
 
+    # 2. Validate that the input is a proper email format
     pattern = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
     email_argument = sys.argv[1]
 
     if not re.match(pattern, email_argument):
         print("Error: What was entered wasn't detected as an email.")
         sys.exit(1)
-    # 3. If yes, hash the email address
+        
+    # 3. Hash the email address
     hashed = hash_email(email_argument)
+    
     # 4. Print the hash to stdout
     print(hashed)
+    
     # 5. Write the hash to a file named "hash.email"
     write_hash_to_file(hashed)
 
