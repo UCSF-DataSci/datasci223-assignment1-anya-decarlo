@@ -3,7 +3,7 @@
 Email Hasher Script
 
 This script takes an email address as a command line argument,
-hashes it using the SHA-256 algorithm, and writes the hash to a file.
+hashes it using the SHA-256 algorithm, and writes the hash to stdout and to a file.
 
 Usage:
     python email_hasher.py <email_address>
@@ -41,10 +41,9 @@ def write_hash_to_file(hash_value, filename="hash.email"):
         hash_value (str): The hash value to write
         filename (str): The name of the file to write to (default: "hash.email")
     """
-    # TODO: Implement this function
     # 1. Open the file in write mode
     with open(filename, "w") as file:
-    # 2. Write the hash value to the file
+        # 2. Write the hash value to the file
         file.write(hash_value)
 
 def main():
@@ -64,10 +63,11 @@ def main():
         print("Error: What was entered wasn't detected as an email.")
         sys.exit(1)
     # 3. If yes, hash the email address
-    # 4. Write the hash to a file named "hash.email"
     hashed = hash_email(email_argument)
+    # 4. Print the hash to stdout
+    print(hashed)
+    # 5. Write the hash to a file named "hash.email"
     write_hash_to_file(hashed)
-    print(f"Email hashed successfully: {hashed}")
 
 if __name__ == "__main__":
     main()
