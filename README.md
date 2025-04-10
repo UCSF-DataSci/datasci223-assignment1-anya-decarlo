@@ -50,7 +50,7 @@ This assignment will help you practice:
 
 ### Part 1: Update this README.md
 1. ANYA - UCSF student 
-2. Research interests - Spatial Proteomics, AI, Clinical Informatics, Bayesian Statistics
+2. Research interests - Spatial Proteomics, AI, Clinical Informatics, Bayesian Statistics, and Bronchiectasis Palliative Care.
 3. I am a 1st year graduate student.
 4. I am a preclinical student.
 
