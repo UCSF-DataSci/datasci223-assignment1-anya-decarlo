@@ -49,11 +49,10 @@ This assignment will help you practice:
 - Clone the repository to your local machine to begin working on the assignment
 
 ### Part 1: Update this README.md
-1. Kevin - UCSF nephrology fellow
-2. Research interests - AI, implementation science, QI, nephrology workflows
-3. Hope to learn basic coding skills for tuning and evaluating AI tools
-4. Discussion of Python environments/architecture (this is so confusing to me)
-5. I survived night float powered solely by Chappell Roan. https://www.youtube.com/watch?v=y9Wxl9Q9lUQ
+1. ANYA - UCSF student 
+2. Research interests - Spatial Proteomics, AI, Clinical Informatics, Bayesian Statistics
+3. I am a 1st year graduate student.
+4. I am a preclinical student.
 
 ### Part 2: Complete the email_hasher.py Script
 The email_hasher.py script should:
