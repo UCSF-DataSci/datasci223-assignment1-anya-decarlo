@@ -49,9 +49,8 @@ This assignment will help you practice:
 - Clone the repository to your local machine to begin working on the assignment
 
 ### Part 1: Update this README.md
-1. ANYA - UCSF student 
-2. Research interests - Machine Learning, Spatial Proteomics, Clinical Informatics, Bayesian Statistics, and Bronchiectasis Palliative Care.
-3. I am a 1st year graduate student.
+1. Research interests - Machine Learning, Spatial Proteomics, Clinical Informatics, Bayesian Statistics, and Bronchiectasis Palliative Care.
+2. I am a 1st year graduate student.
 
 ### Part 2: Complete the email_hasher.py Script
 The email_hasher.py script should:
